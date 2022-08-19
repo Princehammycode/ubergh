@@ -1,0 +1,495 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/banner1.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+} 
+
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+nav h1{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'UberMove', 'UberMoveText', system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.nav-links{
+    flex: 1;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'UberMove', 'UberMoveText', system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-links ul li:hover{
+    background-color: rgba(156, 156, 156, 0.4);
+    border-radius: 30px;
+}
+
+.second{
+    margin-left: 33.5%;
+}
+
+.fa-solid{
+    padding-right: 10px;
+}
+
+.fa-angle-down{
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+button{
+    border-radius: 30px;
+    width: 90px;
+    height: 40px;
+    line-height: 14px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+.text-box{
+    background-color: white;
+    width: 40%;
+    margin: 4% 10%;
+}
+
+.text-box ul{
+    display: flex;
+}
+
+.text-box ul li{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    height: 130px;
+    border-bottom: 1px solid #CBCBCB;
+}
+.text-box ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+    line-height: 18px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.fa-signal{
+    padding: 30px 80px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+}
+.fa-utensils{
+    padding: 30px 265px;;
+    position: absolute;
+    font-size: 20px;
+}
+.fa-car{
+    padding: 30px 445px;
+    position: absolute;
+    font-size: 20px;
+}
+.text{
+    padding: 40px;
+}
+.text h1{
+    font-size: 42px;
+    font-family: 'UberMove', 'UberMoveText', system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.text p{
+    margin-top: 20px;
+    font-family: 'UberMove', 'UberMoveText', system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.text-btn{
+    padding: 0 20px;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.text-btn:hover{
+    background-color: rgb(102, 102, 102);
+    border: none;
+    cursor: pointer;
+}
+
+.text a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #CBCBCB;
+}
+.text a:hover{
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.business{
+    height: 40vh;
+    width: 100%;
+    background-image: url(img/belowbanner2.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.businesstext{
+    padding: 60px 130px;
+}
+
+.businesstext h1{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.businesstext p{
+    padding-bottom: 30px;
+}
+
+.businessbtn{
+    width: 110px;
+}
+
+.safety h1{
+    margin-top: -40px;
+    margin-left: -20%;
+}
+
+.safety{
+    width: 90%;
+    margin-left: 5%;
+}
+.fleximage{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    margin:  0 20px;
+}
+.items img{
+    max-width: 100%;
+    height: 100%;
+    display: block;      
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -7%;
+}
+.links a, .items a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.links a:hover{
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+}
+.items a:hover{
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+}
+
+.aboutus{
+    width: 95%;
+    margin: 8% 6%;
+}
+.aboutcontainer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutitems{
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    margin:  0 20px;
+}
+.aboutitems h1{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.aboutitems p{
+    margin-bottom: 40px;
+}
+
+.aboutitems a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.aboutitems a:hover{
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+}
+
+.app{
+    width: 100%;
+    height: 62vh;
+    background-color: #F6F6F6;
+}
+.app h1{
+    padding: 60px 100px;
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-family: 'UberMove', 'UberMoveText', system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.appitems{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
+}
+.appimg{
+    width: 47%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    margin: 0 15px;
+}
+.appimg:hover{
+    cursor: pointer;
+}
+
+.appimg img{
+    width: 28%; 
+    height: 75%;
+    display: block;
+    padding-left: 20px;
+}
+
+.appimg .fa-solid{
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 42px;
+}
+.appimg .fa-solid:hover{
+   margin-left: 40%;
+}
+.appimg h1{
+    font-size: 24px;
+    display: block;
+    padding-left: 20px;
+}
+
+.signup{
+    width: 100%;
+    height: 30vh;
+}
+
+.drive, .drive a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drive a:hover{
+    color: #6d6d6d;
+}
+
+.drive a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+.drive a h1{
+    font-weight: 500;
+    margin-top: 50px;
+    width: 90%;
+    height: 90px;
+    border-bottom: 1px solid black ;
+}
+
+.first h1{
+    margin-left: 80px;
+}
+
+.option{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 25px;
+}
+
+.option .fa-solid{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 40%;
+}
+
+.first .fa-solid{
+    margin-left: 45%;
+}
+
+.option .fa-solid:hover{
+    margin-left: 43%;
+}
+
+.footer{
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+}
+
+.footercontainer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footeritems{
+    display: flex;
+    flex-basis: 100%;
+    margin:  0 20px;
+    margin-top: 100px;
+}
+.footeritems a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.footeritems h1, h3{
+   font-size: 16px;
+}
+
+.footerlogo{
+    position: absolute;
+    margin-left: 80px;
+}
+
+.menulinks{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 85px;
+    margin-top: 150px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.menulinks h1{
+    color: white;
+}
+.icons{
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.icons li{
+    margin: 0 15px;
+}
+.fa-brands:hover{
+    cursor: pointer;
+    background-color: rgba(156, 156, 156, 0.4);
+    border-radius: 30px;
+    width: 10px;
+    height: 10px;
+}
+.map{
+    margin-left: 360px;
+}
+.map h4{
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.copyright{
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 74px;
+}
+.copyright h4{
+    color: rgb(197, 197, 197);
+    font-size: 12px;
+}
